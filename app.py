@@ -1,10 +1,11 @@
 import os
 
+from dotenv import load_dotenv
 import pandas as pd
 import streamlit as st
 from openai import OpenAI
 
-
+load_dotenv()
 # =========================================================
 # CONFIG
 # =========================================================
